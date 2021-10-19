@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #2b3f93;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  transition: all 0.3s;
+
+  @media screen and (max-width: 768px) {
+    flex: 0 0 45%;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: #18286c;
+    color: #fff;
+  }
+}

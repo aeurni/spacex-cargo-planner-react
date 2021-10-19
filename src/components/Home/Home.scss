@@ -1,0 +1,18 @@
+.Home {
+  position: relative;
+}
+.Home__floating-title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    position: static;
+    top: unset;
+    left: unset;
+    transform: unset;
+  }
+}

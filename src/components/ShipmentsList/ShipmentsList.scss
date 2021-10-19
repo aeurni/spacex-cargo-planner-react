@@ -1,0 +1,21 @@
+.ShipmentsList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 60px;
+  }
+
+  a {
+    color: #333;
+  }
+}
+.ShipmentsList__item {
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+.ShipmentsList__item--active {
+  color: #18286c;
+  font-weight: bolder;
+}

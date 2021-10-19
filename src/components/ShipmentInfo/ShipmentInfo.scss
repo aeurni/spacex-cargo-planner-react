@@ -1,0 +1,33 @@
+.ShipmentInfo {
+  padding: 15px 30px;
+  font-size: 18px;
+
+  @media screen and (max-width: 768px) {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+.ShipmentInfo__email {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.ShipmentInfo__bays {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.ShipmentInfo__input {
+  padding: 5px 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  transition: all 0.3s;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  &.ShipmentInfo__input--invalid {
+    border-color: #e54811;
+  }
+}
